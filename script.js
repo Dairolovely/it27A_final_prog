@@ -7,10 +7,7 @@ document.querySelectorAll("nav a").forEach(link => {
     });
 });
 
-// Smooth Scroll for Explore Labs button
-function scrollToLabs() {
-    document.getElementById("labs").scrollIntoView({ behavior: "smooth" });
-}
+
 
 // Highlight Active Link While Scrolling
 const sections = document.querySelectorAll("section");
