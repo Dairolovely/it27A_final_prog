@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background: #f4f7fa;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #065f46, #85dcbf);
+    padding: 20px;
+    color: white;
+    display: flex;
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background: #e9fee5;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #065f46, #669787);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+nav a {
+    color: #000000;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #0c0c0c;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://images.unsplash.com/photo-1527689368864-3a821dbccc34') center/cover no-repeat;
+    color: rgb(10, 9, 9);
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    background: #10b981;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: #059669;
+}
+
+/* LABS */
+.labs-section {
+    padding: 60px;
+    text-align: center;
+}
+
+.lab-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.lab-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.lab-card:hover {
+    transform: scale(1.05);
+}
+
+.lab-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* OLD SCHEDULE TABLE (not deleted, but no longer used) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #10b981;
+    color: white;
+}
+
+/* RULES */
+.rules-section {
+    padding: 60px;
+    background: #ecfdf5;
+}
+
+.rules-section ul {
+    max-width: 600px;
+    margin: auto;
+}
+
+.rules-section li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* CONTACT */
+.contact-section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #065f46;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* ============================================= */
+/* NEW SCHEDULE CARD SYSTEM (ADDED for you)      */
+/* ============================================= */
+
+.lab-title {
+    font-size: 26px;
+    margin-top: 40px;
+    font-weight: bold;
+    color: #065f46;
+    text-align: center;
+}
+
+.schedule-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.day {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.day:hover {
+    transform: translateY(-5px);
+}
+
+.day h2 {
+    font-size: 22px;
+    color: #065f46;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.class-card {
+    background: #e6f8ef;
+    border-left: 6px solid #10b981;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.class-card:hover {
+    background: #d0f1e2;
+}
+
+.class-card .time {
+    font-weight: 600;
+    display: block;
+    color: #065f46;
+}
+
+.class-card .subject {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.class-card .details {
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+
+/* FREE TIME */
+.class-card.free {
+    background: #f0f0f0;
+    border-left: 6px solid #6b7280;
+}
+
+.class-card.free .subject {
+    color: #6b7280;
+    font-weight: 600;
+}
+
+.class-card.free .time {
+    color: #4b5563;
+}
+   justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+nav a {
+    color: #f0ecec;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #0c0c0c;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://images.unsplash.com/photo-1527689368864-3a821dbccc34') center/cover no-repeat;
+    color: rgb(10, 9, 9);
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    background: #10b981;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: #059669;
+}
+
+/* LABS */
+.labs-section {
+    padding: 60px;
+    text-align: center;
+}
+
+.lab-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.lab-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.lab-card:hover {
+    transform: scale(1.05);
+}
+
+.lab-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* SCHEDULE TABLE */
+.schedule-section {
+    padding: 60px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #10b981;
+    color: white;
+}
+
+/* RULES */
+.rules-section {
+    padding: 60px;
+    background: #ecfdf5;
+}
+
+.rules-section ul {
+    max-width: 600px;
+    margin: auto;
+}
+
+.rules-section li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* CONTACT */
+.contact-section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #065f46;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+nav a.active {
+    color: #abede0;
+    font-weight: bold;
+}
+
