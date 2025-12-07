@@ -376,4 +376,24 @@ nav a.active {
     color: #abede0;
     font-weight: bold;
 }
+.print-controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.print-controls button {
+    background-color: #0a4d8c;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.print-controls button:hover {
+    background-color: #063a69;
+}
+
+
 
