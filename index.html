@@ -59,219 +59,231 @@
             <button onclick="window.print()">Print / Download Schedule</button>
         </div>
 
-        <!-- LAB 1 -->
-        <h3 class="lab-title">Laboratory 1 </h3>
-        <div class="table-wrapper">
-            <table class="schedule">
-                <thead>
-                    <tr>
-                        <th>Day</th>
-                        <th>Time</th>
-                        <th>Subject</th>
-                        <th>Instructor</th>
-                        <th>Section</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="5" class="day">Monday</td>
-                        <td>7:00–8:30 AM</td>
-                        <td>Object Oriented Programming</td>
-                        <td>Cliff Fernandez Evangelio</td>
-                        <td>ICS-B 2nd Year</td>
-                    </tr>
-                    <tr>
-                        <td>8:30–10:00 AM</td>
-                        <td>Event Driven</td>
-                        <td>Marchilyn Abunda</td>
-                        <td>ICS (Set C) 2nd Year</td>
-                    </tr>
-                    <tr>
-                        <td>10:00–12:00 PM</td>
-                        <td>Programming 1</td>
-                        <td>Cliff Fernandez Evangelio</td>
-                        <td>ICS-A 1st Year</td>
-                    </tr>
-                    <tr>
-                        <td>1:00–2:30 PM</td>
-                        <td>Fundamentals of Networking</td>
-                        <td>Ronald O. Mancao</td>
-                        <td>ICS-A 2nd Year</td>
-                    </tr>
-                    <tr>
-                        <td>2:30–5:00 PM</td>
-                        <td colspan="3" class="free">FREE TIME</td>
-                    </tr>
+        <!-- PAGE 1: LAB 1 PRINT WRAPPER -->
+        <div id="lab1-print">
 
-                    <tr>
-                        <td class="day">Tuesday</td>
-                        <td>7:00 AM–12:00 PM</td>
-                        <td colspan="3" class="free">FREE TIME</td>
-                    </tr>
+            <!-- LAB 1 -->
+            <h3 class="lab-title">Laboratory 1 </h3>
+            <div class="table-wrapper">
+                <table class="schedule">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Subject</th>
+                            <th>Instructor</th>
+                            <th>Section</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="5" class="day">Monday</td>
+                            <td>7:00–8:30 AM</td>
+                            <td>Object Oriented Programming</td>
+                            <td>Cliff Fernandez Evangelio</td>
+                            <td>ICS-B 2nd Year</td>
+                        </tr>
+                        <tr>
+                            <td>8:30–10:00 AM</td>
+                            <td>Event Driven</td>
+                            <td>Marchilyn Abunda</td>
+                            <td>ICS (Set C) 2nd Year</td>
+                        </tr>
+                        <tr>
+                            <td>10:00–12:00 PM</td>
+                            <td>Programming 1</td>
+                            <td>Cliff Fernandez Evangelio</td>
+                            <td>ICS-A 1st Year</td>
+                        </tr>
+                        <tr>
+                            <td>1:00–2:30 PM</td>
+                            <td>Fundamentals of Networking</td>
+                            <td>Ronald O. Mancao</td>
+                            <td>ICS-A 2nd Year</td>
+                        </tr>
+                        <tr>
+                            <td>2:30–5:00 PM</td>
+                            <td colspan="3" class="free">FREE TIME</td>
+                        </tr>
 
-                    <tr>
-                        <td rowspan="2" class="day">Wednesday</td>
-                        <td>8:00 AM–12:00 PM</td>
-                        <td>Database Systems</td>
-                        <td>Sir Cliff</td>
-                        <td>ICS-A 2nd Year</td>
-                    </tr>
-                    <tr>
-                        <td>1:00–4:00 PM</td>
-                        <td>Multimedia System Development</td>
-                        <td>Sheila Mae Orozco</td>
-                        <td>ICS-B 2nd Year</td>
-                    </tr>
+                        <tr>
+                            <td class="day">Tuesday</td>
+                            <td>7:00 AM–12:00 PM</td>
+                            <td colspan="3" class="free">FREE TIME</td>
+                        </tr>
 
-                    <tr>
-                        <td rowspan="2" class="day">Thursday</td>
-                        <td>9:00–11:00 AM</td>
-                        <td>IT Fundamentals</td>
-                        <td>Cliff Fernandez Evangelio</td>
-                        <td>ICS-A 1st Year</td>
-                    </tr>
-                    <tr>
-                        <td>11:00 AM–5:00 PM</td>
-                        <td colspan="3" class="free">FREE TIME</td>
-                    </tr>
+                        <tr>
+                            <td rowspan="2" class="day">Wednesday</td>
+                            <td>8:00 AM–12:00 PM</td>
+                            <td>Database Systems</td>
+                            <td>Sir Cliff</td>
+                            <td>ICS-A 2nd Year</td>
+                        </tr>
+                        <tr>
+                            <td>1:00–4:00 PM</td>
+                            <td>Multimedia System Development</td>
+                            <td>Sheila Mae Orozco</td>
+                            <td>ICS-B 2nd Year</td>
+                        </tr>
 
-                    <tr>
-                        <td rowspan="2" class="day">Friday</td>
-                        <td>8:00 AM–12:00 PM</td>
-                        <td>Networking Basics</td>
-                        <td>Cliff Fernandez Evangelio</td>
-                        <td>ICS-A 2nd Year</td>
-                    </tr>
-                    <tr>
-                        <td>1:00–5:00 PM</td>
-                        <td colspan="3" class="free">FREE TIME</td>
-                    </tr>
-                </tbody>
-            </table>
+                        <tr>
+                            <td rowspan="2" class="day">Thursday</td>
+                            <td>9:00–11:00 AM</td>
+                            <td>IT Fundamentals</td>
+                            <td>Cliff Fernandez Evangelio</td>
+                            <td>ICS-A 1st Year</td>
+                        </tr>
+                        <tr>
+                            <td>11:00 AM–5:00 PM</td>
+                            <td colspan="3" class="free">FREE TIME</td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="2" class="day">Friday</td>
+                            <td>8:00 AM–12:00 PM</td>
+                            <td>Networking Basics</td>
+                            <td>Cliff Fernandez Evangelio</td>
+                            <td>ICS-A 2nd Year</td>
+                        </tr>
+                        <tr>
+                            <td>1:00–5:00 PM</td>
+                            <td colspan="3" class="free">FREE TIME</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
-      <!-- LAB 2 -->
-      <h3 class="lab-title">Laboratory 2</h3>
-      <div class="table-wrapper">
-        <table class="schedule" role="table" aria-label="Laboratory 2 schedule">
-          <thead>
-            <tr>
-              <th>Day</th>
-              <th>Time</th>
-              <th>Subject</th>
-              <th>Instructor</th>
-              <th>Section</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="day">Monday</td>
-              <td>7:00–8:30 AM</td>
-              <td>Object Oriented Programming</td>
-              <td>Cliff Fernandez Evangelio</td>
-              <td>ICS-A 2nd Year</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>8:30–10:00 AM</td>
-              <td>Data Structures</td>
-              <td>Marchilyn Abunda</td>
-              <td>ICS-B 2nd Year</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>10:00–12:00 PM</td>
-              <td>Programming 1</td>
-              <td>Roland Partos</td>
-              <td>ICS-A 1st Year</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>1:00–2:30 PM</td>
-              <td>Programming 2</td>
-              <td>Cliff Fernandez Evangelio</td>
-              <td>ICS-C 2nd Year</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>2:30–5:00 PM</td>
-              <td colspan="3" class="free">FREE TIME</td>
-            </tr>
+        <!-- PAGE 2: LAB 2 PRINT WRAPPER -->
+        <div id="lab2-print">
 
-            <tr>
-              <td class="day">Tuesday</td>
-              <td>7:00–9:00 AM</td>
-              <td>IT Fundamentals</td>
-              <td>Roland Mancao</td>
-              <td>ICS-A 1st Year</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>9:00 AM–12:00 PM</td>
-              <td colspan="3" class="free">FREE TIME</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>1:00–4:00 PM</td>
-              <td>Operating Systems</td>
-              <td>Marchilyn Abunda</td>
-              <td>ICS-A 2nd Year</td>
-            </tr>
+            <!-- LAB 2 -->
+            <h3 class="lab-title">Laboratory 2</h3>
+            <div class="table-wrapper">
+              <table class="schedule" role="table" aria-label="Laboratory 2 schedule">
+                <thead>
+                  <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Subject</th>
+                    <th>Instructor</th>
+                    <th>Section</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="day">Monday</td>
+                    <td>7:00–8:30 AM</td>
+                    <td>Object Oriented Programming</td>
+                    <td>Cliff Fernandez Evangelio</td>
+                    <td>ICS-A 2nd Year</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>8:30–10:00 AM</td>
+                    <td>Data Structures</td>
+                    <td>Marchilyn Abunda</td>
+                    <td>ICS-B 2nd Year</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>10:00–12:00 PM</td>
+                    <td>Programming 1</td>
+                    <td>Roland Partos</td>
+                    <td>ICS-A 1st Year</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>1:00–2:30 PM</td>
+                    <td>Programming 2</td>
+                    <td>Cliff Fernandez Evangelio</td>
+                    <td>ICS-C 2nd Year</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>2:30–5:00 PM</td>
+                    <td colspan="3" class="free">FREE TIME</td>
+                  </tr>
 
-            <tr>
-              <td class="day">Wednesday</td>
-              <td>8:00 AM–12:00 PM</td>
-              <td>Fundamentals of Networking</td>
-              <td>Roland O. Mancao</td>
-              <td>ICS-A 2nd Year</td>
-            </tr>
+                  <tr>
+                    <td class="day">Tuesday</td>
+                    <td>7:00–9:00 AM</td>
+                    <td>IT Fundamentals</td>
+                    <td>Roland Mancao</td>
+                    <td>ICS-A 1st Year</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>9:00 AM–12:00 PM</td>
+                    <td colspan="3" class="free">FREE TIME</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>1:00–4:00 PM</td>
+                    <td>Operating Systems</td>
+                    <td>Marchilyn Abunda</td>
+                    <td>ICS-A 2nd Year</td>
+                  </tr>
 
-            <tr>
-              <td class="day">Thursday</td>
-              <td>9:00–11:00 AM</td>
-              <td>IT Fundamentals</td>
-              <td>Marchilyn Abunda</td>
-              <td>ICS-A 1st Year</td>
-            </tr>
+                  <tr>
+                    <td class="day">Wednesday</td>
+                    <td>8:00 AM–12:00 PM</td>
+                    <td>Fundamentals of Networking</td>
+                    <td>Roland O. Mancao</td>
+                    <td>ICS-A 2nd Year</td>
+                  </tr>
 
-            <tr>
-              <td class="day">Friday</td>
-              <td>8:00 AM–12:00 PM</td>
-              <td>Networking Basics</td>
-              <td>Cliff Fernandez Evangelio</td>
-              <td>ICS-A 2nd Year</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+                  <tr>
+                    <td class="day">Thursday</td>
+                    <td>9:00–11:00 AM</td>
+                    <td>IT Fundamentals</td>
+                    <td>Marchilyn Abunda</td>
+                    <td>ICS-A 1st Year</td>
+                  </tr>
+
+                  <tr>
+                    <td class="day">Friday</td>
+                    <td>8:00 AM–12:00 PM</td>
+                    <td>Networking Basics</td>
+                    <td>Cliff Fernandez Evangelio</td>
+                    <td>ICS-A 2nd Year</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
 
     </section>
-
 
     <!-- RULES SECTION -->
     <section id="rules" class="rules-section">
-        <h2>Laboratory Rules</h2>
-        <div class="rules-grid">
-            <div class="rule-card">🍔 No food or drinks inside</div>
-            <div class="rule-card">🖥️ Handle equipment with care</div>
-            <div class="rule-card">💾 Save your work regularly</div>
-            <div class="rule-card">⚠️ Report issues immediately</div>
-            <div class="rule-card">🧹 Maintain cleanliness</div>
-        </div>
-    </section>
+    <h2>Laboratory Rules</h2>
+    <div class="rules-grid">
+        <div class="rule-card">🍔 No food or drinks inside</div>
+        <div class="rule-card">🖥️ Handle equipment with care</div>
+        <div class="rule-card">💾 Save your work regularly</div>
+        <div class="rule-card">⚠️ Report issues immediately</div>
+        <div class="rule-card">🧹 Maintain cleanliness</div>
+    </div>
+</section>
 
-<section id="contact" style="padding:24px;max-width:600px;margin:auto;font-family:Arial,sans-serif;">
+<section id="contact" style="padding:24px;max-width:1200px;margin:auto;font-family:Arial,sans-serif;">
   <h2 style="font-size:1.5rem;color:#0369a1;margin-bottom:16px;">Contact Us</h2>
 
-  <div style="display:flex;gap:16px;align-items:center;padding:16px;border-radius:12px;background:#f9fafb;box-shadow:0 4px 12px rgba(0,0,0,0.08);">
-    <div style="width:72px;height:72px;border-radius:10px;display:grid;place-items:center;color:hwb(183 9% 56%);font-weight:bold;font-size:1.6rem;">
-      
+  <div style="display:flex;gap:24px;align-items:flex-start;padding:20px;border-radius:12px;background:#f9fafb;box-shadow:0 4px 12px rgba(0,0,0,0.08);">
+    
+    <!-- ICON BOX -->
+    <div style="width:90px;height:90px;border-radius:10px;display:grid;place-items:center;background:#e0f7f1;color:#065f46;font-weight:bold;font-size:1.6rem;">
+      📞
     </div>
-      <h3 style="margin:0 0 10x 0;font-size:1.5em;">Lab Coordinator</h3>
-      <p style="margin:2px 0;"><strong>Email:</strong> 20241028@nbsc.edu.ph</p>
-      <p style="margin:2px 0;"><strong>Phone:</strong> 0926-793-5564</p>
-      </div>
+
+    <!-- TEXT CONTENT (Stacked properly) -->
+    <div style="display:flex;flex-direction:column;">
+      <h3 style="margin:0 0 10px 0;font-size:1.8em;">Lab Coordinator</h3>
+      <p style="margin:4px 0;font-size:1.2em;"><strong>Email:</strong> 20241028@nbsc.edu.ph</p>
+      <p style="margin:4px 0;font-size:1.2em;"><strong>Phone:</strong> 0926-793-5564</p>
     </div>
+
   </div>
 </section>
 
